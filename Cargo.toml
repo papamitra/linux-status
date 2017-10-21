@@ -1,0 +1,10 @@
+[package]
+name = "linux-status"
+version = "0.1.0"
+authors = ["papamitra <papamitra@gmail.com>"]
+
+[dependencies]
+iron = "*"
+mount = "*"
+router = "*"
+staticfile = "*"
