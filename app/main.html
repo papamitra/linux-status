@@ -6,11 +6,9 @@
   </head>
   <body>
 
-    <div id="app-2">
-      <span v-bind:title='message'>
-        Hover your mouse over me for a few seconds
-        to see my dynamically bound title!
-      </span>
+    <div id="app-5">
+      <p>{{ message }}</p>
+      <button v-on:click="reverseMessage">Reverse Message</button>
     </div>
 
     <script src="https://unpkg.com/vue/dist/vue.js"></script>

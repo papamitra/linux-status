@@ -1,6 +1,11 @@
 var app = new Vue ({
-    el: '#app-2',
+    el: '#app-5',
     data: {
-        message: 'You loaded this page on ' + new Date().toLocaleString()
+        message: 'Hello Vue.js!'
+    },
+    methods: {
+        reverseMessage: function() {
+            this.message = this.message.split('').reverse().join('')
+        }
     }
 })
